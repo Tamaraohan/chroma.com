@@ -1,2 +1,0 @@
-# chroma.com
-Chroma Hair
