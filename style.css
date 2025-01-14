@@ -1,0 +1,523 @@
+@font-face {
+    font-family: 'Harabara';
+    src: url('media/Harabara\ Mais\ Demo\ 2.otf');
+  }
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    font-family: Inter, sans-serif !important;
+    font-size: 16px;
+    line-height: 1.625;
+    --black: #000000;
+    --orange: #E35425;
+}
+
+img.responsive {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--secondary-color-light);
+    padding-block: 22px;
+    display: grid;
+    gap: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 24px;
+}
+
+header {
+    background-image: url(media/hair.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.iconmenu {
+    font-size: 46px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    color: var(--orange);
+}
+
+.iconbag {
+    font-size: 40px;
+    display: block;
+    color: var(--orange);
+  }
+
+.logo {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.slogan {
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px auto;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 200;
+    max-width: 400px;
+}
+
+.p {
+    padding: 10px;
+}
+
+.effective {
+    color: var(--orange);
+}
+
+.organic {
+    color: var(--orange);
+}
+
+.scientific {
+    color: var(--orange);
+}
+
+.ourproducts {
+    font-family: harabara;
+    text-align: center;
+    font-size: 28px;
+}
+
+.bodydiv {
+    max-width: 400px;
+    margin: 0px auto;
+}
+
+h2 {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 200;
+    color: var(--orange);
+    margin-left: 26px;
+}
+
+.parent {
+    display: inline-block;
+    align-self: flex-end;
+}
+
+.product1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-bottom: 50px;
+}
+
+.cart1 {
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: right;
+}
+
+.price1 {
+    font-size: 20px;
+    color: var(--orange);
+    font-weight: 600;
+}
+
+.description1 {
+    font-size: 18px;
+    font-weight: 100;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.product2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-bottom: 50px;
+}
+
+.cart2 {
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: left;
+}
+
+.price2 {
+    font-size: 20px;
+    color: var(--orange);
+    font-weight: 600;
+    text-align: right;
+}
+
+.description2 {
+    font-size: 18px;
+    font-weight: 100;
+    padding-bottom: 0px;
+    text-align: right;
+}
+
+.moreproducts {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+    text-decoration: underline;
+    padding-bottom: 60px;
+}
+
+.aboutus {
+    font-family: harabara;
+    color: var(--orange);
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.about {
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 30px;
+    text-align: center;
+    padding-left: 45px;
+    padding-right: 45px;
+    max-width: 500px;
+    margin: 0px auto;
+}
+
+.reviews {
+    padding-top: 60px;
+    font-family: harabara;
+    color: var(--orange);
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.reviewbox {
+    padding: 0px 20px 20px 20px;
+    max-width: 400px;
+    margin: 0px auto;
+}
+
+.review1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    font-size: 12px;
+    font-weight: 100;
+    padding-bottom: 40px;
+}
+
+.title1 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.personalinfo1 {
+    font-style: italic;
+    font-weight: 600;
+}
+
+.review2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
+    font-size: 12px;
+    font-weight: 100;
+    padding-bottom: 50px;
+}
+
+.title2 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.personalinfo2 {
+    font-style: italic;
+    font-weight: 600;
+}
+
+footer {
+    font-size: 14px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.footer2 {
+    font-size: 10px;
+    padding-top: 20px;
+    font-style: italic;
+}
+
+/*images used in the page>*/
+
+.img1 {
+    height: 232px;
+    width: 174px;
+    padding-right: 20px;
+}
+
+.img2 {
+    height: 232px;
+    width: 174px;
+    padding-left: 20px;
+}
+
+.img3 {
+    height: 232px;
+    width: 174px;
+    padding-right: 20px;
+}
+
+.img4 {
+    height: 232px;
+    width: 174px;
+    padding-left: 20px;
+}
+
+.img5 {
+    height: 180px;
+    width: 160px;
+    padding-right: 10px;
+
+}
+
+.img6 {
+    height: 180px;
+    width: 160px;
+    padding-left: 10px;
+}
+
+@media (width > 700px) {
+
+    .slogan {
+        font-size: 40px;
+    }
+    
+    .container1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        gap: 30px;
+        text-align: center;
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 200;
+        margin: 30px auto;
+    }
+
+    .bodydiv {
+        display: flex;
+        grid-template-columns: 1f 1fr;
+        justify-self: center;
+        width: auto;
+        align-items: center;
+        padding-left: 40px;
+        padding-right: 40px;
+        max-width: 1000px;
+    }   
+
+    .ourproducts {
+        font-size: 32px;
+        padding-bottom: 10px;
+    }
+
+    .bottomdiv {
+        width: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-self: center;
+        padding-bottom: 50px;
+        max-width: 1000px;
+    }
+
+    .usdiv {
+        display: block;
+        width: auto;
+        padding-left: 70px;
+    }
+
+    .aboutus {
+        font-size: 36px;
+        text-align: left;
+    }
+
+    .about {
+        font-size: 20px;
+        text-align: left;
+        padding-left: 0px;
+        line-height: 40px;
+    }
+
+    .reviewsdiv {
+        display: block;
+        width: auto;
+        padding-right: 70px;
+        justify-content: right;
+    }
+
+    .reviews {
+        padding-top: 0px;
+        padding-bottom: 10px;
+        padding-right: 30px;
+        font-size: 36px;
+        text-align: right;
+    }
+
+   .review1 {
+        padding-right: 0px;
+   }
+
+   .review1text {
+        width: auto;
+        font-size: 12px
+}
+
+   .review2text {
+        width: auto;
+        font-size: 12px;
+        
+   }
+
+   .img5 {
+        padding-left: 0px;
+   }
+
+   .img6 {
+        padding-right: 0px;
+   }
+
+}
+
+@media (width > 1280px) {
+
+    .slogan {
+        font-size: 64px;
+    }
+    
+    .container1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        margin: 100px auto;
+        align-items: center;
+        gap: 50px;
+        text-align: center;
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 200;
+        justify-content: center;
+    }
+
+    .bodydiv {
+        display: flex;
+        grid-template-columns: 1f 1fr;
+        gap: 40px;
+        justify-self: center;
+    }
+
+    .forher {
+        display: block;
+        width: 440px;
+    }
+
+    .forhim {
+        display: block;
+        width: 440px;
+    }
+
+    .ourproducts {
+        font-size: 36px;
+        padding-bottom: 10px;
+    }
+
+    .bottomdiv {
+        width: 1060px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-self: center;
+        padding-bottom: 70px;
+    }
+
+    .usdiv {
+        display: block;
+        width: auto;
+    }
+
+    .aboutus {
+        padding-top: 0px;
+        font-size: 36px;
+        text-align: left;
+    }
+
+    .about {
+        font-size: 20px;
+        text-align: left;
+        padding-left: 0px;
+        line-height: 40px;
+    }
+
+    .reviewsdiv {
+        display: block;
+        width: auto;
+        padding-right: 0px;
+    }
+
+    .reviews {
+        padding-top: 0px;
+        font-size: 36px;
+        text-align: right;
+        padding-right: 0px;
+    }
+
+   .review1 {
+        padding-right: 0px;
+   }
+
+   .review1text {
+    width: 250px;
+    margin-left: 20px;
+    font-size: 14px
+}
+
+   .review2 {
+        padding-left: 0px;
+   }
+
+   .review2text {
+        width: 250px;
+        margin-right: 20px;
+        font-size: 14px
+   }
+
+   .img5 {
+        padding-left: 0px;
+   }
+
+   .img6 {
+        padding-right: 0px;
+   }
+
+}
